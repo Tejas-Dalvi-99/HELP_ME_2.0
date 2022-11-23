@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Helpme</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+</head>
+<!-- body -->
+
+<body class="main-layout inner_page">
+    <!-- header -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row d_flex">
+                <div class="col-sm-3 logo_sm">
+                    <div class="logo">
+                        <a href="index.html"></a>
+                    </div>
+                </div>
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-9">
+                    <div class="navbar-area">
+                        <nav class="site-navbar">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">INFO PANEL</a></li>
+                                <li><a href="#">Contact </a></li>
+                            </ul>
+                            <button class="nav-toggler">
+                                <span></span>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- cases -->
+    <div class="cases">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center ">
+                        <h2>Information Panel</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="newsinfo">
+    <form method="post" action="news.php">
+        <input type="textarea" name="news1" required>
+        <input type="textarea" name="news2" required>
+        <input type="textarea" name="news3" required>
+        <br>
+        <center>
+        <button type="submit" value="Submit" id="newsbtn">Submit</button>
+        </center>
+    </form>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+<style>
+    .newsinfo{
+        display: flex;
+        justify-content: center;
+    }
+    textarea {
+        width: 250px;
+        height: 100px;
+      }
+</style>
+
+</html>
