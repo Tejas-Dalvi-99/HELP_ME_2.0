@@ -35,7 +35,7 @@
                         <nav class="site-navbar">
                            <ul>
                               <li><a class="active" href="index.html">Home</a></li>
-                              <li><a href="info panel.html">INFO PANEL</a></li>       
+                              <li><a href="info panel.php">INFO PANEL</a></li>       
                               <li><a href="contact.html">Contact </a></li>
                            </ul>
                         </nav>
