@@ -54,21 +54,19 @@
   <div class="emergency-container">
 
     <div class="form-container">
-      <form action="/backend.php">
+      <form method="post" action="EmergencyForm.php">
         <label for="img">Name/Phone No:</label>
-        <input type="text" id="textBox1" name="textBox1" required/>
-        <form action="backend.php" method="post" enctype="multipart/form-data">
+        <input type="text" id="textBox1" name="NameOrPhone" required/>
           <label for="details">Details:</label>
           <input type="text" id="details" name="details" />
-
           <br />
           <br />
           <label for="img">Select image:</label>
-          <input type="file" id="img" name="file" accept="image/*" required/>
+          <input type="file" id="img" name="photo" accept="image/*" required/>
           <br />
           <br />
           <input type="submit" name="submit" />
-        </form>
+      </form>
     </div>
 
   </div>
