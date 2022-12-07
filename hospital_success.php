@@ -19,4 +19,7 @@
     <?php echo $row['user_email']; ?>
     <br>
     <a href="hospital_logout.php">Logout</a>
+    <?php 
+        header("Location: hospitalView.html");
+    ?>
 </body>
