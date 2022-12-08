@@ -28,5 +28,6 @@
         echo "Please fill all fields" ; 
         die() ; 
     }
+    header("refresh:3; url=index.html");
 
 ?>
