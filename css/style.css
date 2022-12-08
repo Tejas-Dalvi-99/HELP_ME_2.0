@@ -822,11 +822,12 @@ button {
 .cases .titlepage {padding-bottom: 30px;}
 .cases .titlepage p {padding-top: 5px;}
 .latest {
-    margin-top: 30px;
+    margin-top: 50px; /* changing the margin top of login page 8.12.22*/
     background: #fff;
-    padding: 15px 46px 46px 46px;
+    padding: 15px 50px 46px 52px;
     box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
-    margin-bottom: 70px;
+    margin-bottom: 217px;
+    border-radius: 60ox;
 }
 
 
