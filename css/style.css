@@ -827,7 +827,9 @@ button {
     padding: 15px 50px 46px 52px;
     box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
     margin-bottom: 217px;
-    border-radius: 60ox;
+    border-radius: 60px;
+    display: flex;
+    justify-content:center;
 }
 
 
