@@ -719,8 +719,8 @@ button {
 
 
 .protect_bg  {
-     background:url(images/spot2.jpeg);
-     background-color: #28a745;
+     background:url("images/spot2.jpeg");
+     /*background-color: #28a745;*/
      background-repeat: no-repeat;
      background-position: center;
      background-size: 100% 100%;
