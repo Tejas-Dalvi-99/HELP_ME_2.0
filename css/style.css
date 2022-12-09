@@ -719,14 +719,14 @@ button {
 
 
 .protect_bg  {
-     background:url(..images/spot2.jpeg);
+     background:url(images/spot2.jpeg);
      background-color: #28a745;
      background-repeat: no-repeat;
      background-position: center;
      background-size: 100% 100%;
-       padding-top: 80px;
-      padding-bottom: 48px;
-      border-radius: 60px;
+     padding-top: 80px;
+     padding-bottom: 48px;
+     border-radius: 60px;
 }
 
 .protect .titlepage p {
